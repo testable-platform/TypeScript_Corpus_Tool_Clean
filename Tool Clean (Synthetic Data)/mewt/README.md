@@ -28,8 +28,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | NOT INSTALLED / CODE-ONLY -- mewt's own mutation run shells out to `npx vitest run` as its configured test command; vitest has no genuine Node 12 release. |
 | node14 | NOT INSTALLED / CODE-ONLY -- mewt's own mutation run shells out to `npx vitest run`; vitest 0.34.6 (node14's own ceiling) predates the coverage/runner package lineage mewt's own harness assumes. |
-| node20 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed/built and run for real under this family's own Node binary) |
+
+This repo carries only the `node14` family.
