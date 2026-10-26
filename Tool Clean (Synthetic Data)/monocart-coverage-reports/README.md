@@ -28,8 +28,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | NOT INSTALLED / CODE-ONLY -- No release threads both needles: every version old enough to avoid the current `commander@^14` hard dependency also ships no `mcr` CLI at all, and every version that does ship `mcr` (2.2.0 onward) loads a bundled vendor file that itself throws a syntax error under Node 12's V8. |
 | node14 | NOT INSTALLED / CODE-ONLY -- Same bundled-vendor-file incompatibility as node12, confirmed live independently under Node 14's own (newer, but still insufficient) V8. |
-| node20 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed/built and run for real under this family's own Node binary) |
+
+This repo carries only the `node14` family.
