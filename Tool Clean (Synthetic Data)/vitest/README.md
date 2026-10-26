@@ -29,7 +29,5 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 | Family | Status |
 | --- | --- |
 | node12 | NOT INSTALLED / CODE-ONLY -- vitest itself has no genuine Node 12 release (its earliest pre-`engines` versions are non-functional day-one previews, not real releases). |
-| node14 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node20 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed/built and run for real under this family's own Node binary) |
+
+This repo carries only the `node12` family.
