@@ -28,8 +28,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | NOT INSTALLED / CODE-ONLY -- @stryker-mutator/vitest-runner has no release before 7.0.0 (requires Node >=18), and vitest itself has no genuine Node 12 release -- no mutually-compatible trio exists. |
-| node14 | NOT INSTALLED / CODE-ONLY -- vitest's first genuine Node-14 release (0.34.6) predates the entire vitest-runner/coverage-v8 package lineage by several minors -- no mutually-compatible Stryker trio exists this old. |
-| node20 | CLEAN (installed/built and run for real under this family's own Node binary) |
 | node24 | CLEAN (installed/built and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed/built and run for real under this family's own Node binary) |
+
+This repo carries only the `node24` family.
